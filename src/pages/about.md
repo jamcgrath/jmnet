@@ -1,7 +1,7 @@
 ---
 title: About Me
-subtitle: This is a short page about me and my work.
-img_path: images/about.jpg
+subtitle:
+# img_path: images/about.jpg
 menus:
   main:
     weight: 4
@@ -9,12 +9,15 @@ menus:
 template: page
 ---
 
-**John Doe** is a Senior Art Director from [Stockholm](https://en.wikipedia.org/wiki/Stockholm), Sweden. After graduating from The College of Visual Arts with a degree in Communication Design, he worked for three small graphic design shops where he honed his design style and sensibility.
+Aloha, if you haven't heard, 'm a Front End Engineer at <a href="https://mamamia.com.au">mamamia.com.au</a>. I'm from Hawaii but currently live in Japan.
 
-His work has been recognized by Communication Arts, Print, How, ID, IdN, AIGA, Effie, Archive, Graphis, AdFed and Rockport. Graphic Design USA named him a person to watch in 2019.
+I love CSS and would say I probably know it better than any other programming language. In addition to CSS, I do the other front end stuff (HTML, JavaScript, etc...). Currently I'm learning Python.
 
->The world always seems brighter when you’ve just made something that wasn’t there before. <cite>Neil Gaiman</cite>
+<h2 class="post-subtitle" style="margin-bottom:0.5em;">Misc things about me</h2>
 
-As a hobby, John Doe authors the most influential design blog in Sweden with over 100,000 page views a month. He lives in Stockholm with his beautiful wife and two boys.
-
-*Thank You for reading!*
+- I play drums
+- I try to meditate daily for 20 minutes (sometimes more, sometimes less)
+- My favorite video game is Street Fighter 2
+- I like whisky and tequila
+- My favorite things to eat are tacos and popcorn.
+- I spend most of my day with a french bulldog.
