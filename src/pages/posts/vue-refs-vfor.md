@@ -29,7 +29,7 @@ All of the examples references arrays. In the first example the same `ref` is ap
 
 Vue tools show that it's a array named "listItem" with 7 elements.
 
-<img src="images/v-for-ref-single-array.png" />
+<img src="/images/v-for-ref-single-array.png" />
 
 In the second example the `ref` is assigned using a ternary. This results in Vue creating 2 arrays. The data object that is being looped over has an item with a boolean value which is used for the ternary.
 
@@ -39,7 +39,7 @@ In the second example the `ref` is assigned using a ternary. This results in Vue
 
 Vue tools show 2 arrays named "expr-1" and "expr-2".
 
-<img src="images/v-for-ref-ternary.png" />
+<img src="/images/v-for-ref-ternary.png" />
 
 The last example in the codepen has a the `ref` being assigned with a function. This creates multiple arrays. If the index of the loop modulo 2 equals zero, the element is assigned to an array named "func-item-mod-2". Otherwise the element is assigned to an array named "func-item" with the index appended to it. If ES6 interpolation is not used the function will not be called.
 
@@ -55,7 +55,7 @@ The last example in the codepen has a the `ref` being assigned with a function. 
 
 Vue tools shows 4 arrays.
 
-<img src="images/v-for-ref-function.png" />
+<img src="/images/v-for-ref-function.png" />
 
 There are a couple of caveats to usig `refs` in a `v-for`.
 
