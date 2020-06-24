@@ -21,7 +21,7 @@ In the following code example we use the `Array.find()` to search for the object
     {id: 245}
   ]
 
-  const theObject = arrayOfObjects.find(obj => obj.id = 12);
+  const theObject = arrayOfObjects.find(obj => obj.id === 12);
   const indexOfTheObject = arrayOfObjects.indexOf(theObject);
 
   console.log(theObject); // { id:12 }
