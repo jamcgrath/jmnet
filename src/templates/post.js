@@ -22,16 +22,6 @@ export default class Post extends React.Component {
 							)}
 						</div>
 					)}
-					{/*_.get(this.props, "pageContext.frontmatter.content_img_path") && (
-            <div className="post-thumbnail">
-              <img
-                src={safePrefix(
-                  _.get(this.props, "pageContext.frontmatter.content_img_path")
-                )}
-                alt={_.get(this.props, "pageContext.frontmatter.alt_text", "")}
-              />
-            </div>
-          )*/}
 					<div className="post-content">
 						{htmlToReact(_.get(this.props, "pageContext.html"))}
 					</div>
