@@ -10,10 +10,14 @@ export default class ContentBlock extends React.Component {
 				<h2 className="block-title underline">
 					{_.get(this.props, "section.title")}
 				</h2>
-				{/*_.get(this.props, 'section.image') &&
-              <div className="block-thumbnail">
-                <img src={safePrefix(_.get(this.props, 'section.image'))} alt={_.get(this.props, 'section.title')} />
-              </div>*/}
+				{_.get(this.props, "section.image") && (
+					<div className="block-thumbnail">
+						<img
+							src={safePrefix(_.get(this.props, "section.image"))}
+							alt={_.get(this.props, "section.title")}
+						/>
+					</div>
+				)}
 				<div className="block-content">
 					{markdownify(_.get(this.props, "section.content"))}
 					{_.get(this.props, "section.actions") && (
