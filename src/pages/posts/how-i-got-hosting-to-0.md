@@ -46,7 +46,7 @@ The steps to move this site were:
 3. Deploy with Netlify
 4. Assign their domain and setup Google Workspace MX records on Netlify.
 
-## My Partner's website.
+### My Partner's website.
 After looking at my partners website, I had a discussion with them about converting their website to a static HTML site because they don't use any WordPress features. To do the conversion I used HTTRACK. Which initially failed. I think the reason was that there is some weird redirect shenanigans going on with WebFaction to get SSL to work.
 
 The Steps for moving this were:
@@ -58,7 +58,7 @@ The Steps for moving this were:
 6. Deploy to Netlify.
 7. Assign domain and MX records for Google Suite.
 
-## Dixon's website.
+### Dixon's website.
 This website had to stay a WordPress site. The reason was that it is an custom themed ecommerce website. I didn't want to rebuild this site and I know Dixon definitely doesn't want to pay my rates to do that. The hosting choice for this site was a GCP Micro F1 instance on compute engine.
 
 The steps to do this were:
