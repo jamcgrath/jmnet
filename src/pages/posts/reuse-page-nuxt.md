@@ -9,8 +9,6 @@ excerpt: Have you ever found yourself having multiple routes that are not relate
 
 ---
 
-# Reusing pages in different routes in Nuxt
-
 Say you got this design and it's exactly the same for different routes. A real world example of this is when we implemented AMP on mamamia.com.au. The only difference between the AMP and non-AMP pages was the `amp-img` component. It was decided that we were going to reuse the page in both routes and just conditionaly load the `amp-img` component depending on the route. 
 
 Our directory structure looked someting like this
