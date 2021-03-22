@@ -18,9 +18,3 @@ Another way is to put the text in a `<span>` or `<div>` and use `padding-bottom`
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-
-
-<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/public/caniuse-embed.min.js"></script>
-<p class="ciu_embed" data-feature="mdn-css__properties__text-underline-offset" data-periods="future_1,current,past_1,past_2" data-accessible-colours="true">
-<p>Data on support for the mdn-css__properties__text-underline-offset feature across the major browsers</p>
-</p>
